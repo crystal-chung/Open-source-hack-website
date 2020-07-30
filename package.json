@@ -1,25 +1,13 @@
 {
-  "name": "open-source-social-wall",
-  "version": "1.0.0",
-  "description": "open source social wall",
-  "main": "index.js",
+  "name": "opensource-social-wall",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anitab-org/Open-source-hack-website.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anitab-org/Open-source-hack-website/issues"
-  },
-  "homepage": "https://github.com/anitab-org/Open-source-hack-website#readme",
   "dependencies": {
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.5.0"
+    "express": "~4.16.1",
+    "socket.io": "^2.3.0",
+    "twit": "^2.2.11"
   }
 }
